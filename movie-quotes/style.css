@@ -1,0 +1,38 @@
+p{text-align: left;
+    color: white;
+}
+
+.gbimg{height: 9%;
+width: 9%;
+}
+main{
+    width: 50%;
+    margin: auto;
+    color: white;
+
+}
+h1{
+    font-size: 150px;
+    text-align: center;
+    color: red;
+
+}
+h3{
+    font-size: 60px;
+    text-align: center;
+    color: white;
+}
+html{
+    background-color: black;
+}
+.subtitle{
+    color: rgb(173, 173, 173);
+}
+
+.red{
+    color: red;
+}
+
+.year{
+    font-size: 40px;
+}
