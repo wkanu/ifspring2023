@@ -1,0 +1,54 @@
+.railway{
+    font-family: 'Raleway', sans-serif;
+}
+html{
+    font-size: 25px;
+}
+.types{
+    font-size: 18px;
+}
+.box{
+    background-color:rgb(205, 247, 205);
+    border-radius: 2%;
+    width: 45%;
+    padding: 10px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#bold{
+font-weight: bold;
+}
+#italic{
+font-style: italic;
+}
+#letter-spacing{
+letter-spacing: .30em;
+}
+#letter-spacingneg{
+letter-spacing: -0.3em;
+}
+#textTransOne{
+text-transform: lowercase;
+}
+#textTransTwo{
+    text-transform: uppercase;
+}
+#textTransThree{
+    text-transform: capitalize;
+}
+#textDecOne{
+text-decoration: line-through;
+}
+#textDecTwo{
+text-decoration: underline;
+}
+#textDecThree{
+text-decoration: overline;
+}
+.top{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+}
