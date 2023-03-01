@@ -1,0 +1,135 @@
+body{
+    font-family: 'Archivo Narrow', sans-serif;
+}
+.one{
+    padding-top: 152px;
+}
+h1.sOne{
+    font-size: 80px;
+    
+}
+h2.sOne{
+   line-height: 35px;
+    font-size: 30px;
+}
+.sOne{
+    text-align: center;
+}
+h1,h2,h3,h4,h5,p,body{
+    margin: 0;
+}
+header{
+    /* background-color:aqua ; */
+    background-image: url(../images/superbowl.jpg);
+    background-size: cover;
+    padding-bottom: 185px;
+}
+.two h2{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 41px;
+
+}
+.two p:first-of-type{
+    padding-top: 32px;
+}
+.two img{
+    float: right;
+    padding-top: 33px;
+    padding-left: 39px;
+    padding-bottom: 20px;
+    padding-right: 1px;
+}
+.two{
+   
+    font-size: 18px;
+    padding-bottom: 35px;
+}
+.two p{
+    padding-bottom: 16px;
+    line-height: 1.4;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+li{
+    /* padding-top: 16px; */
+    display: block;
+    margin: 0;
+    width: 50%;
+}
+.imgtext{
+    float: right;
+    width: 50%;
+    padding-right: 28px;
+}
+.three h2{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 41.5px;
+    padding-bottom: 15px;
+}
+.main-col{
+    margin: auto;
+    width: 960px;
+    padding-bottom: 26px;
+}
+.three{
+    background-color:blueviolet;
+}
+.main-col-one{
+    margin: auto;
+    width: 960px;
+    padding-bottom: 4px;
+}
+.two{
+    background-color:aquamarine;
+}
+.three h4{
+    padding-top: 1px;
+    font-size: 20px;
+}
+.three p{
+    padding-top: 7px;
+    font-size: 18px;
+    line-height: 1.39;
+}
+li img{
+    padding-top: 3px;
+    padding-bottom: 16px;
+}
+.main-col-three{
+    margin: auto;
+    width: 960px;
+    text-align: center;
+    padding-top: 39.5px;
+   
+}
+.four{
+    background-color:aqua;
+}
+.main-col-three h2{
+    font-size: 40px;
+}
+.main-col-three p{
+    padding-top: 33.5px;
+    font-size: 26px;
+    width: 74%;
+    margin:auto;
+    line-height: 1.4;
+    padding-bottom: 100px;
+}
+.footer{
+    margin: auto;
+    width: 960px;
+}
+.footer p{
+    padding-top: 40px;
+    font-size: 18px;
+}
+footer{
+    background-color: bisque;
+    padding-bottom: 40px;
+}
