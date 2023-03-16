@@ -18,12 +18,12 @@ body{
 }
 
 #stretchable-grid-items li{
-    display: inline-block;
+    display: inline-flex;
+    list-style-type: none;
     width: 100%;
 }
 
 #stretchable-grid-items aside{
-    
     margin: 10px;
     font-size: 0.8rem;
 }
@@ -31,8 +31,21 @@ body{
     padding-left: 0;
     margin: 1rem -10px;
     display: flex;
+    flex-wrap: wrap;
 
 
+}
+
+
+@media (min-width: 480px) {
+    #stretchable-grid-items li{
+        width: 50%;
+    }
+}
+@media (max-width: 500px) {
+    h1{
+        font-size: 1.5rem;
+    }
 }
 
 @media (min-width: 640px) {
@@ -44,15 +57,5 @@ body{
     }
     #stretchable-grid-items li{
         width: 25%;
-    }
-}
-@media (min-width: 480px) {
-    #stretchable-grid-items li{
-        width: 50%;
-    }
-}
-@media (max-width: 500px) {
-    h1{
-        font-size: 1.5rem;
     }
 }
