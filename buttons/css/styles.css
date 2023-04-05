@@ -1,0 +1,139 @@
+.button_container {
+    border: 1px solid #ddd;
+    margin: 0 10px 10px 0;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+a{
+    margin: auto;
+    width: 50%;
+    display: block;
+    padding: 110px 0;
+  text-align: center;
+}
+#apple{
+    scale: 5;
+    color: black;
+}
+#apple:hover{
+    color: gray;
+}
+#facebook{
+    scale: 5;
+    color: #4966A4;
+}
+#facebook:hover{
+    color: white;
+    background-color: #4966A4;
+    box-shadow: 2px 1px 1px #4966A4;
+    border-radius: 20px;
+}
+#insta{
+    scale: 5;
+    color: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+}
+#lyft{
+    scale: 5;
+}
+#ibm{
+    position: relative;
+    width: 120px;
+    height: 60px;
+    margin: auto;
+}
+#coca-cola{
+    position: relative;
+    margin: auto; 
+    width: 65%;
+    height: 65%;
+}
+#nerf{
+    position: relative;
+    margin: auto; 
+    width: 65%;
+    height: 65%;
+}
+#kors{
+    position: relative;
+    margin: auto; 
+    width: 65%;
+    height: 65%;
+    
+}
+#samsung{
+    position: relative;
+    margin: auto; 
+    width: 65%;
+    height: 65%;
+}
+#cartoonnetwork{
+    position: relative;
+    margin: auto; 
+    width: 65%;
+    height: 65%;
+}
+#nike{
+    position: relative;
+    margin: auto; 
+    width: 65%;
+    height: 65%;
+}
+#tesla{
+    position: relative;
+    margin: auto; 
+    width: 65%;
+    height: 65%;
+}
+#fitbit{
+    position: relative;
+    margin: auto; 
+    width: 65%;
+    height: 65%;
+}
+#explodingkittens{
+    position: relative;
+    margin: auto; 
+    width: 65%;
+    height: 65%;
+}
+#stjude{
+    position: relative;
+    margin: auto; 
+    width: 65%;
+    height: 65%;
+}
+#foreflight{
+    position: relative;
+    margin: auto; 
+    width: 65%;
+    height: 65%;
+}
+#npr{
+    position: relative;
+    margin: auto; 
+    width: 65%;
+    height: 65%;
+}
+#tuckerallen{
+    position: relative;
+    margin: auto; 
+    width: 65%;
+    height: 65%;
+}
+#hsn{
+    position: relative;
+    margin: auto; 
+    width: 65%;
+    height: 65%;
+}
+#oldnavy{
+    position: relative;
+    margin: auto; 
+    width: 65%;
+    height: 65%;
+}
