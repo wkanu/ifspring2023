@@ -1,0 +1,118 @@
+/* font-family: 'Archivo Narrow', sans-serif;
+font-family: 'Chivo Mono', monospace; */
+#image1{
+    object-fit: cover;
+    width: 85%;
+    padding: 0;
+    /* margin: 0; */
+    position: relative; 
+    height: 620px;
+    border-radius: 50px;
+    
+}
+.sec1{
+    margin-top: 0;
+}
+#imageContainer{
+    margin-left: 13%;
+    margin-top: 30px;
+    padding: 0;
+    position: relative;
+}
+body,html{
+    margin: 0;
+    padding: 0;
+}
+#facts{
+    background-color: lightblue;
+    position: absolute;
+    bottom: 5%;
+    width: 33%;
+    left: 50%;
+    border-radius: 100px;
+    opacity: 0.8;
+}
+#factsp{
+    text-align: center;
+    font-family: 'Chivo Mono', monospace;
+    font-weight: 400;
+    font-size: 30px;
+    /* padding: 10px; */
+}
+#title{
+    font-family: 'Chivo Mono', monospace;
+    font-weight: 800;
+    font-size: 50px;
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    margin-top: 30px
+}
+#intro{
+    background-color: lightblue;
+    font-size: 30px;
+    width: 70%;
+    margin: auto;
+    padding: 70px;
+    border-radius: 100px;
+    text-align: center;
+    font-family: 'Chivo Mono', monospace;
+    font-weight: 200;
+}
+#image2{
+width: 25%;
+height: 25%;
+border-radius: 20px;
+margin-top: 10px;
+}
+#image2container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ingredientCon{
+    background-color: lightblue;
+    padding: 30px;
+    border-radius: 30px;
+    line-height: 35px;
+    font-family: 'Chivo Mono', monospace;
+    font-weight: 200;
+}
+.dirCon{
+    background-color: lightblue;
+    padding: 70px;
+    width: 50%;
+    margin: auto;
+    font-family: 'Chivo Mono', monospace;
+    font-weight: 200;
+    border-radius: 100px;
+    line-height: 30px;
+}
+.ingCon{
+    margin-left: 5%;
+}
+.ingTitle{
+    font-family: 'Chivo Mono', monospace;
+    font-weight: 800;
+    text-align: center;
+    font-size: 40px;
+}
+.image3{
+    transform: rotate(90deg);
+    border-radius: 50px;
+    object-fit: cover;
+    height: 700px;
+
+}
+.img3Con{
+    margin-left: 27%;
+    width: 50%;
+    /* margin: auto; */
+}
+.dirTitle{
+    font-family: 'Chivo Mono', monospace;
+    font-weight: 800;
+    margin-left: 25%;
+    font-size: 40px;
+
+}
