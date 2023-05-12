@@ -1,3 +1,33 @@
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media (min-height: 1001px) {
+    #open{
+        display: none;
+       }
+   
+  }
+
+  @media (min-height: 500) and (max-height: 1000px) {
+   #open{
+    display: block;
+   }
+   p{
+    font-size: 10px;
+   }
+   h2{
+    text-align: center;
+    font-size: 22px;
+   }
+  }
+
+  @media screen and(max-height: 499px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+#open{
+    display: none;
+}
+
 /* font-family: 'Open Sans', sans-serif;
 font-family: 'Roboto', sans-serif; */
 #bgfire{
@@ -33,7 +63,7 @@ body,html{
     
 }
 #whatcc{
-    margin-left: 20%;
+    margin-left: 11%;
 }
 .intro{
     background-color: black;
@@ -46,8 +76,9 @@ h2,hr,h6{
 footer{
     height: 100px;
 }
-h6{
+h5{
     padding-top: 2%;
+    padding-left: 10%;
 }
 h2{
     padding: 70px;
@@ -81,3 +112,67 @@ h1,h2{
     text-align: center;
     padding-top: 150px;
 }
+p{
+    width: 80%;
+    margin: auto;
+    text-align: left;
+}
+#ccImage{
+    float: right;
+    margin: 2px;
+}
+.floatImg{
+    float: right;
+    margin: 4px;
+}
+/* side bar code recieved from w3schools https://www.w3schools.com/howto/howto_js_sidenav.asp*/
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: red;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  /* #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  } */
+
+
+  #open{
+    color: white;
+  }
+  

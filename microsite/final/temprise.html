@@ -2,6 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- viewport meta tag goes here. -->
   <title>Initial Website</title>
   <link rel="stylesheet" href="https://wudesign.me/resources/basic-layout/css/responsive-design-intro.css">
@@ -12,20 +13,47 @@
 <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Chivo+Mono:wght@200;400;800&family=Open+Sans:wght@800&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="navBar">
-        <a class="nav" id="homeNav" href="index.html">Global Climate Change</a>
-        <a class="nav"  id = "whatcc" href="whatsCC.html">What's Climate Change</a>
-        <a class="nav" href="temprise.html">Temperature Rise</a>
-        <a class="nav" href="impacts.html">Impacts</a>
-        <a class="nav" href="reducingem.html">Reducing Emissions</a>
-        <a class="nav" href="policies.html">Polocies and Politics</a>
-        <a class="nav" href="society.html">Society</a>
-    </div>
+  <script>
+    /* Set the width of the side navigation to 250px */
+function openNav() {
+document.getElementById("mySidenav").style.width = "250px";
+}
+
+/* Set the width of the side navigation to 0 */
+function closeNav() {
+document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+<div class="navBar">
+<a class="nav" id="homeNav" href="index.html">Global Climate Change</a>
+<a class="nav" id = "whatcc" href="whatsCC.html">What's Climate Change</a>
+<a class="nav" href="temprise.html">Temperature Rise</a>
+<a class="nav" href="impacts.html">Impacts</a>
+<a class="nav" href="reducingem.html">Reducing Emissions</a>
+<a class="nav" href="policies.html">Polocies and Politics</a>
+<a class="nav" href="society.html">Society</a>
+</div>
+
+<div id="mySidenav" class="sidenav">
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<a class="nav" id="homeNav" href="index.html">Global Climate Change</a>
+<a class="nav" id = "whatcc" href="whatsCC.html">What's Climate Change</a>
+<a class="nav" href="temprise.html">Temperature Rise</a>
+<a class="nav" href="impacts.html">Impacts</a>
+<a class="nav" href="reducingem.html">Reducing Emissions</a>
+<a class="nav" href="policies.html">Polocies and Politics</a>
+<a class="nav" href="society.html">Society</a>
+</div>
+
+<!-- Use any element to open the sidenav -->
+<span onclick="openNav()" id = "open">open</span>
+
    <div>
     <h2>
       Observed Temperature Rise
     </h2>
     <p>
+      <img class="floatImg" src="images/tr1.jpg" alt="temp rise pic" width="50%" height="50%">
       Multiple independent instrumental datasets show that the climate system is warming. The 2011–2020 decade warmed to an average 1.09 °C [0.95–1.20 °C] compared to the pre-industrial baseline (1850–1900). Surface temperatures are rising by about 0.2 °C per decade, with 2020 reaching a temperature of 1.2 °C above the pre-industrial era. Since 1950, the number of cold days and nights has decreased, and the number of warm days and nights has increased.
 
       There was little net warming between the 18th century and the mid-19th century. Climate information for that period comes from climate proxies, such as trees and ice cores. Thermometer records began to provide global coverage around 1850. Historical patterns of warming and cooling, like the Medieval Climate Anomaly and the Little Ice Age, did not occur at the same time across different regions. Temperatures may have reached as high as those of the late-20th century in a limited set of regions. There have been prehistorical episodes of global warming, such as the Paleocene–Eocene Thermal Maximum. However, the modern observed rise in temperature and CO2 concentrations has been so rapid that even abrupt geophysical events in Earth's history do not approach current rates.
@@ -52,6 +80,8 @@
       Greenhouse Gassses
     </h2>
     <p>
+      <img class="floatImg" src="images/greenhouse.png" alt="temp rise pic" width="60%" height="60%">
+
       Greenhouse gases are transparent to sunlight, and thus allow it to pass through the atmosphere to heat the Earth's surface. The Earth radiates it as heat, and greenhouse gases absorb a portion of it. This absorption slows the rate at which heat escapes into space, trapping heat near the Earth's surface and warming it over time. Before the Industrial Revolution, naturally-occurring amounts of greenhouse gases caused the air near the surface to be about 33 °C warmer than it would have been in their absence. While water vapour (~50%) and clouds (~25%) are the biggest contributors to the greenhouse effect, they increase as a function of temperature and are therefore feedbacks. On the other hand, concentrations of gases such as CO2 (~20%), tropospheric ozone, CFCs and nitrous oxide are not temperature-dependent, and are therefore external forcings.
 
 Human activity since the Industrial Revolution, mainly extracting and burning fossil fuels (coal, oil, and natural gas), has increased the amount of greenhouse gases in the atmosphere, resulting in a radiative imbalance. In 2019, the concentrations of CO2 and methane had increased by about 48% and 160%, respectively, since 1750. These CO2 levels are higher than they have been at any time during the last 2 million years. Concentrations of methane are far higher than they were over the last 800,000 years.
@@ -89,7 +119,7 @@ The type of vegetation in a region affects the local temperature. It impacts how
         <footer>
 
             <hr>
-          <h4>© Copyright 2023. All rights reserved.</h4>  
+          <h5>© Copyright 2023. All rights reserved.</h5>  
         </footer>
     </div>
 </body>

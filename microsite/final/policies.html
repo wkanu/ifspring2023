@@ -2,6 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- viewport meta tag goes here. -->
   <title>Initial Website</title>
   <link rel="stylesheet" href="https://wudesign.me/resources/basic-layout/css/responsive-design-intro.css">
@@ -12,20 +13,48 @@
 <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Chivo+Mono:wght@200;400;800&family=Open+Sans:wght@800&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="navBar">
-        <a class="nav" id="homeNav" href="index.html">Global Climate Change</a>
-        <a class="nav"  id = "whatcc" href="whatsCC.html">What's Climate Change</a>
-        <a class="nav" href="temprise.html">Temperature Rise</a>
-        <a class="nav" href="impacts.html">Impacts</a>
-        <a class="nav" href="reducingem.html">Reducing Emissions</a>
-        <a class="nav" href="policies.html">Polocies and Politics</a>
-        <a class="nav" href="society.html">Society</a>
-    </div>
+  <script>
+    /* Set the width of the side navigation to 250px */
+function openNav() {
+document.getElementById("mySidenav").style.width = "250px";
+}
+
+/* Set the width of the side navigation to 0 */
+function closeNav() {
+document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+<div class="navBar">
+<a class="nav" id="homeNav" href="index.html">Global Climate Change</a>
+<a class="nav" id = "whatcc" href="whatsCC.html">What's Climate Change</a>
+<a class="nav" href="temprise.html">Temperature Rise</a>
+<a class="nav" href="impacts.html">Impacts</a>
+<a class="nav" href="reducingem.html">Reducing Emissions</a>
+<a class="nav" href="policies.html">Polocies and Politics</a>
+<a class="nav" href="society.html">Society</a>
+</div>
+
+<div id="mySidenav" class="sidenav">
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<a class="nav" id="homeNav" href="index.html">Global Climate Change</a>
+<a class="nav" id = "whatcc" href="whatsCC.html">What's Climate Change</a>
+<a class="nav" href="temprise.html">Temperature Rise</a>
+<a class="nav" href="impacts.html">Impacts</a>
+<a class="nav" href="reducingem.html">Reducing Emissions</a>
+<a class="nav" href="policies.html">Polocies and Politics</a>
+<a class="nav" href="society.html">Society</a>
+</div>
+
+<!-- Use any element to open the sidenav -->
+<span onclick="openNav()" id = "open">open</span>
+
     <div>
       <h2>
         Policy Options
       </h2>
       <p>
+        <img class="floatImg" src="images/pp1.jpg" alt="temp rise pic" width="40%" height="40%">
+
         A wide range of policies, regulations, and laws are being used to reduce emissions. As of 2019, carbon pricing covers about 20% of global greenhouse gas emissions. Carbon can be priced with carbon taxes and emissions trading systems. Direct global fossil fuel subsidies reached $319 billion in 2017, and $5.2 trillion when indirect costs such as air pollution are priced in. Ending these can cause a 28% reduction in global carbon emissions and a 46% reduction in air pollution deaths. Money saved on fossil subsidies could be used to support the transition to clean energy instead. More direct methods to reduce greenhouse gases include vehicle efficiency standards, renewable fuel standards, and air pollution regulations on heavy industry. Several countries require utilities to increase the share of renewables in power production.
 
 Policy designed through the lens of climate justice tries to address human rights issues and social inequality. For instance, wealthy nations responsible for the largest share of emissions would have to pay poorer countries to adapt. As the use of fossil fuels is reduced, jobs in the sector are being lost. To achieve a just transition, these people would need to be retrained for other jobs. Communities with many fossil fuel workers would need additional investments.
@@ -52,6 +81,8 @@ The 1987 Montreal Protocol, an international agreement to stop emitting ozone-de
         National Responses
       </h2>
       <p>
+        <img class="floatImg" src="images/pp2.avif" alt="temp rise pic" width="40%" height="40%">
+
         In 2019, the United Kingdom parliament became the first national government to declare a climate emergency. Other countries and jurisdictions followed suit. That same year, the European Parliament declared a "climate and environmental emergency". The European Commission presented its European Green Deal with the goal of making the EU carbon-neutral by 2050. Major countries in Asia have made similar pledges: South Korea and Japan have committed to become carbon-neutral by 2050, and China by 2060. In 2021, the European Commission released its “Fit for 55” legislation package, which contains guidelines for the car industry; all new cars on the European market must be zero-emission vehicles from 2035. While India has strong incentives for renewables, it also plans a significant expansion of coal in the country. Vietnam is among very few coal-dependent fast developing countries that pledged to phase out unabated coal power by the 2040s or as soon as possible there after.
 
 As of 2021, based on information from 48 national climate plans, which represent 40% of the parties to the Paris Agreement, estimated total greenhouse gas emissions will be 0.5% lower compared to 2010 levels, below the 45% or 25% reduction goals to limit global warming to 1.5 °C or 2 °C, respectively.
@@ -61,7 +92,7 @@ As of 2021, based on information from 48 national climate plans, which represent
         <footer>
 
             <hr>
-          <h4>© Copyright 2023. All rights reserved.</h4>  
+          <h5>© Copyright 2023. All rights reserved.</h5>  
         </footer>
     </div>
 </body>

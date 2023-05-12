@@ -2,6 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- viewport meta tag goes here. -->
   <title>Initial Website</title>
   <link rel="stylesheet" href="https://wudesign.me/resources/basic-layout/css/responsive-design-intro.css">
@@ -12,20 +13,48 @@
 <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Chivo+Mono:wght@200;400;800&family=Open+Sans:wght@800&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="navBar">
-        <a class="nav" id="homeNav" href="index.html">Global Climate Change</a>
-        <a class="nav"  id = "whatcc" href="whatsCC.html">What's Climate Change</a>
-        <a class="nav" href="temprise.html">Temperature Rise</a>
-        <a class="nav" href="impacts.html">Impacts</a>
-        <a class="nav" href="reducingem.html">Reducing Emissions</a>
-        <a class="nav" href="policies.html">Polocies and Politics</a>
-        <a class="nav" href="society.html">Society</a>
-    </div>
+  <script>
+    /* Set the width of the side navigation to 250px */
+function openNav() {
+document.getElementById("mySidenav").style.width = "250px";
+}
+
+/* Set the width of the side navigation to 0 */
+function closeNav() {
+document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+<div class="navBar">
+<a class="nav" id="homeNav" href="index.html">Global Climate Change</a>
+<a class="nav" id = "whatcc" href="whatsCC.html">What's Climate Change</a>
+<a class="nav" href="temprise.html">Temperature Rise</a>
+<a class="nav" href="impacts.html">Impacts</a>
+<a class="nav" href="reducingem.html">Reducing Emissions</a>
+<a class="nav" href="policies.html">Polocies and Politics</a>
+<a class="nav" href="society.html">Society</a>
+</div>
+
+<div id="mySidenav" class="sidenav">
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<a class="nav" id="homeNav" href="index.html">Global Climate Change</a>
+<a class="nav" id = "whatcc" href="whatsCC.html">What's Climate Change</a>
+<a class="nav" href="temprise.html">Temperature Rise</a>
+<a class="nav" href="impacts.html">Impacts</a>
+<a class="nav" href="reducingem.html">Reducing Emissions</a>
+<a class="nav" href="policies.html">Polocies and Politics</a>
+<a class="nav" href="society.html">Society</a>
+</div>
+
+<!-- Use any element to open the sidenav -->
+<span onclick="openNav()" id = "open">open</span>
+
     <div>
       <h2>
         Clean Energy
       </h2>
       <p>
+        <img class="floatImg" src="images/re1.jpg" alt="temp rise pic" width="50%" height="50%">
+
         Renewable energy is key to limiting climate change. Fossil fuels accounted for 80% of the world's energy in 2018. The remaining share was split between nuclear power and renewables (including hydropower, bioenergy, wind and solar power and geothermal energy). That mix is projected to change significantly over the next 30 years. Solar panels and onshore wind are now among the cheapest forms of adding new power generation capacity in many locations. Renewables represented 75% of all new electricity generation installed in 2019, nearly all solar and wind. Other forms of clean energy, such as nuclear and hydropower, currently have a larger share of the energy supply. However, their future growth forecasts appear limited in comparison.
 
 To achieve carbon neutrality by 2050, renewable energy would become the dominant form of electricity generation, rising to 85% or more by 2050 in some scenarios. Investment in coal would be eliminated and coal use nearly phased out by 2050.
@@ -52,6 +81,8 @@ Strategies to reduce energy demand vary by sector. In transport, passengers and 
         Agriculture and Industry
       </h2>
       <p>
+        <img class="floatImg" src="images/re2.jpg" alt="temp rise pic" width="40%" height="40%">
+
         Agriculture and forestry face a triple challenge of limiting greenhouse gas emissions, preventing the further conversion of forests to agricultural land, and meeting increases in world food demand. A set of actions could reduce agriculture and forestry-based emissions by two thirds from 2010 levels. These include reducing growth in demand for food and other agricultural products, increasing land productivity, protecting and restoring forests, and reducing greenhouse gas emissions from agricultural production.
 On the demand side, a key component of reducing emissions is shifting people towards plant-based diets. Eliminating the production of livestock for meat and dairy would eliminate about 3/4ths of all emissions from agriculture and other land use. Livestock also occupy 37% of ice-free land area on Earth and consume feed from the 12% of land area used for crops, driving deforestation and land degradation.
 
@@ -62,7 +93,7 @@ Steel and cement production are responsible for about 13% of industrial CO2 emis
         <footer>
 
             <hr>
-          <h4>© Copyright 2023. All rights reserved.</h4>  
+          <h5>© Copyright 2023. All rights reserved.</h5>  
         </footer>
     </div>
 </body>

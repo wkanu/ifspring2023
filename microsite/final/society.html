@@ -2,6 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- viewport meta tag goes here. -->
   <title>Initial Website</title>
   <link rel="stylesheet" href="https://wudesign.me/resources/basic-layout/css/responsive-design-intro.css">
@@ -12,20 +13,48 @@
 <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Chivo+Mono:wght@200;400;800&family=Open+Sans:wght@800&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="navBar">
-        <a class="nav" id="homeNav" href="index.html">Global Climate Change</a>
-        <a class="nav"  id = "whatcc" href="whatsCC.html">What's Climate Change</a>
-        <a class="nav" href="temprise.html">Temperature Rise</a>
-        <a class="nav" href="impacts.html">Impacts</a>
-        <a class="nav" href="reducingem.html">Reducing Emissions</a>
-        <a class="nav" href="policies.html">Polocies and Politics</a>
-        <a class="nav" href="society.html">Society</a>
-    </div>
+  <script>
+    /* Set the width of the side navigation to 250px */
+function openNav() {
+document.getElementById("mySidenav").style.width = "250px";
+}
+
+/* Set the width of the side navigation to 0 */
+function closeNav() {
+document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+<div class="navBar">
+<a class="nav" id="homeNav" href="index.html">Global Climate Change</a>
+<a class="nav" id = "whatcc" href="whatsCC.html">What's Climate Change</a>
+<a class="nav" href="temprise.html">Temperature Rise</a>
+<a class="nav" href="impacts.html">Impacts</a>
+<a class="nav" href="reducingem.html">Reducing Emissions</a>
+<a class="nav" href="policies.html">Polocies and Politics</a>
+<a class="nav" href="society.html">Society</a>
+</div>
+
+<div id="mySidenav" class="sidenav">
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<a class="nav" id="homeNav" href="index.html">Global Climate Change</a>
+<a class="nav" id = "whatcc" href="whatsCC.html">What's Climate Change</a>
+<a class="nav" href="temprise.html">Temperature Rise</a>
+<a class="nav" href="impacts.html">Impacts</a>
+<a class="nav" href="reducingem.html">Reducing Emissions</a>
+<a class="nav" href="policies.html">Polocies and Politics</a>
+<a class="nav" href="society.html">Society</a>
+</div>
+
+<!-- Use any element to open the sidenav -->
+<span onclick="openNav()" id = "open">open</span>
+
     <div>
       <h2>
         Denial and Misinformation
       </h2>
       <p>
+        <img class="floatImg" src="images/society.jpg" alt="temp rise pic" width="40%" height="40%">
+
         Public debate about climate change has been strongly affected by climate change denial and misinformation, which originated in the United States and has since spread to other countries, particularly Canada and Australia. The actors behind climate change denial form a well-funded and relatively coordinated coalition of fossil fuel companies, industry groups, conservative think tanks, and contrarian scientists. Like the tobacco industry, the main strategy of these groups has been to manufacture doubt about scientific data and results. Many who deny, dismiss, or hold unwarranted doubt about the scientific consensus on anthropogenic climate change are labelled as "climate change skeptics", which several scientists have noted is a misnomer.
 
 There are different variants of climate denial: some deny that warming takes place at all, some acknowledge warming but attribute it to natural influences, and some minimise the negative impacts of climate change. Manufacturing uncertainty about the science later developed into a manufactured controversy: creating the belief that there is significant uncertainty about climate change within the scientific community in order to delay policy changes. Strategies to promote these ideas include criticism of scientific institutions, and questioning the motives of individual scientists. An echo chamber of climate-denying blogs and media has further fomented misunderstanding of climate change.
@@ -46,6 +75,8 @@ Significant regional, gender, age and political differences exist in both public
         Climate Movement
       </h2>
       <p>
+        <img class="floatImg" src="images/society2.jpg" alt="temp rise pic" width="30%" height="30%">
+
         Climate protests demand that political leaders take action to prevent climate change. They can take the form of public demonstrations, fossil fuel divestment, lawsuits and other activities. Prominent demonstrations include the School Strike for Climate. In this initiative, young people across the globe have been protesting since 2018 by skipping school on Fridays, inspired by Swedish teenager Greta Thunberg. Mass civil disobedience actions by groups like Extinction Rebellion have protested by disrupting roads and public transport. Litigation is increasingly used as a tool to strengthen climate action from public institutions and companies. Activists also initiate lawsuits which target governments and demand that they take ambitious action or enforce existing laws on climate change. Lawsuits against fossil-fuel companies generally seek compensation for loss and damage.
       </p>
      </div>
@@ -53,7 +84,7 @@ Significant regional, gender, age and political differences exist in both public
         <footer>
 
             <hr>
-          <h4>© Copyright 2023. All rights reserved.</h4>  
+          <h5>© Copyright 2023. All rights reserved.</h5>  
         </footer>
     </div>
 </body>

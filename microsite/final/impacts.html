@@ -2,6 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- viewport meta tag goes here. -->
   <title>Initial Website</title>
   <link rel="stylesheet" href="https://wudesign.me/resources/basic-layout/css/responsive-design-intro.css">
@@ -12,20 +13,48 @@
 <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Chivo+Mono:wght@200;400;800&family=Open+Sans:wght@800&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="navBar" href="index.html">
-        <a class="nav" id="homeNav">Global Climate Change</a>
-        <a class="nav"  id = "whatcc" href="whatsCC.html">What's Climate Change</a>
-        <a class="nav" href="temprise.html">Temperature Rise</a>
-        <a class="nav" href="impacts.html">Impacts</a>
-        <a class="nav" href="reducingem.html">Reducing Emissions</a>
-        <a class="nav" href="policies.html">Polocies and Politics</a>
-        <a class="nav" href="society.html">Society</a>
-    </div>
+  <script>
+    /* Set the width of the side navigation to 250px */
+function openNav() {
+document.getElementById("mySidenav").style.width = "250px";
+}
+
+/* Set the width of the side navigation to 0 */
+function closeNav() {
+document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+<div class="navBar">
+<a class="nav" id="homeNav" href="index.html">Global Climate Change</a>
+<a class="nav" id = "whatcc" href="whatsCC.html">What's Climate Change</a>
+<a class="nav" href="temprise.html">Temperature Rise</a>
+<a class="nav" href="impacts.html">Impacts</a>
+<a class="nav" href="reducingem.html">Reducing Emissions</a>
+<a class="nav" href="policies.html">Polocies and Politics</a>
+<a class="nav" href="society.html">Society</a>
+</div>
+
+<div id="mySidenav" class="sidenav">
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<a class="nav" id="homeNav" href="index.html">Global Climate Change</a>
+<a class="nav" id = "whatcc" href="whatsCC.html">What's Climate Change</a>
+<a class="nav" href="temprise.html">Temperature Rise</a>
+<a class="nav" href="impacts.html">Impacts</a>
+<a class="nav" href="reducingem.html">Reducing Emissions</a>
+<a class="nav" href="policies.html">Polocies and Politics</a>
+<a class="nav" href="society.html">Society</a>
+</div>
+
+<!-- Use any element to open the sidenav -->
+<span onclick="openNav()" id = "open">open</span>
+
     <div>
       <h2>
         Environmental Effects
       </h2>
       <p>
+        <img class="floatImg" src="images/impact1.jpg" alt="temp rise pic" width="40%" height="40%">
+
         The environmental effects of climate change are broad and far-reaching, affecting oceans, ice, and weather. Changes may occur gradually or rapidly. Evidence for these effects comes from studying climate change in the past, from modelling, and from modern observations. Since the 1950s, droughts and heat waves have appeared simultaneously with increasing frequency. Extremely wet or dry events within the monsoon period have increased in India and East Asia. The rainfall rate and intensity of hurricanes and typhoons is likely increasing, and the geographic range likely expanding poleward in response to climate warming. Frequency of tropical cyclones has not increased as a result of climate change.
 
 
@@ -50,6 +79,8 @@ The long-term effects of climate change on oceans include further ice melt, ocea
         Nature and Wildlife
       </h2>
       <p>
+        <img class="floatImg" src="images/polar-impact2.jpg" alt="temp rise pic" width="40%" height="40%">
+
         Recent warming has driven many terrestrial and freshwater species poleward and towards higher altitudes. Higher atmospheric CO2 levels and an extended growing season have resulted in global greening. However, heatwaves and drought have reduced ecosystem productivity in some regions. The future balance of these opposing effects is unclear. Climate change has contributed to the expansion of drier climate zones, such as the expansion of deserts in the subtropics. The size and speed of global warming is making abrupt changes in ecosystems more likely. Overall, it is expected that climate change will result in the extinction of many species.
 
 The oceans have heated more slowly than the land, but plants and animals in the ocean have migrated towards the colder poles faster than species on land. Just as on land, heat waves in the ocean occur more frequently due to climate change, harming a wide range of organisms such as corals, kelp, and seabirds.Ocean acidification makes it harder for marine calcifying organisms such as mussels, barnacles and corals to produce shells and skeletons; and heatwaves have bleached coral reefs. Harmful algal blooms enhanced by climate change and eutrophication lower oxygen levels, disrupt food webs and cause great loss of marine life. Coastal ecosystems are under particular stress. Almost half of global wetlands have disappeared due to climate change and other human impacts.
@@ -67,7 +98,7 @@ The oceans have heated more slowly than the land, but plants and animals in the 
         <footer>
 
             <hr>
-          <h4>© Copyright 2023. All rights reserved.</h4>  
+          <h5>© Copyright 2023. All rights reserved.</h5>  
         </footer>
     </div>
 </body>
