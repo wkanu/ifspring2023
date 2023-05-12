@@ -1,0 +1,28 @@
+
+.main{
+    display: flex;
+}
+.projects{
+    flex: 50%;
+    height: 500px;   
+    text-decoration: none; 
+    color: black;
+}
+.container{
+    border: medium solid black;
+    height: 400px;
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+}
+
+header{
+    text-align: center;
+}
+.container:nth-child(1):hover{
+    box-shadow: 5px 5px 10px black;
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+}
